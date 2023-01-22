@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         int a = 12;
-        int b = 4;
+        int b = 6;
         int addition = a + b;
         int subtraction = a - b;
         int division = a / b;
