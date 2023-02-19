@@ -16,7 +16,7 @@ public class WorkingWithNumbers {
         return arr;
     }
 
-    static void increaseSorting(int[] arr) {
+    static void Sorting(int[] arr) {
         int temp;
         System.out.println();
         for (int i = 0; i < arr.length; i++) {

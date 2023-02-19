@@ -12,7 +12,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введіть число: ");
         int arraySize = scanner.nextInt();
-        WorkingWithNumbers.increaseSorting(WorkingWithNumbers.creatingArray(arraySize));
-//        WorkingWithNumbers.decreasingSorting(WorkingWithNumbers.creatingArray(arraySize));
+        WorkingWithNumbers.Sorting(WorkingWithNumbers.creatingArray(arraySize));
     }
 }
