@@ -11,7 +11,6 @@ public class WorkingWithNumbers {
             arr[i] = random.nextInt(200);
         }
         for (int i = 0; i < arraySize; i++) {
-            System.out.print(arr[i] + "\t");
         }
         return arr;
     }
