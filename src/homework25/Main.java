@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean validValue = false;
-        int number = 0;
+        int number;
 
         while (!validValue) {
             System.out.println("Введіть число:");
