@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
 
-        public static void SaveToFile(String fileName, String data) {
+        public static void saveToFile(String fileName, String data) {
             try {
                 OutputStream ous = new FileOutputStream(fileName);
                 ous.write(data.getBytes());
@@ -39,7 +39,7 @@ public class Main {
         String fileName = "data.txt";
         String data = "Mondays sucks";
 
-        SaveToFile(fileName, data);
+        saveToFile(fileName, data);
         String content = readFromFile(fileName);
         System.out.println("Зміст файлу:");
         System.out.println(content);
