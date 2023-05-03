@@ -6,15 +6,16 @@ package homework22;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        List<Student> students = new ArrayList<Student>();
-        students.add(new Student("Makarov",3));
-        students.add(new Student("Vishnevsky", 5));
-        students.add(new Student("Limonov", 4));
+        List<Student> students = new ArrayList<>();
+        students.add(new Student("Makarov",3.8));
+        students.add(new Student("Vishnevsky", 2.4));
+        students.add(new Student("Limonov", 3.9));
 
         System.out.println("Original list:");
         for (int i = 0; i < students.size(); i++)
@@ -29,7 +30,11 @@ public class Main {
         System.out.println("Sorted by average score:");
         for (int i = 0; i < students.size(); i++)
             System.out.println(students.get(i));
-        }
+
     }
+
+    }
+
+
 
 

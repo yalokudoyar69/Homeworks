@@ -5,9 +5,9 @@ import java.util.Objects;
 public class Student implements Comparable<Student> {
 
     private String surname;
-    private int averageScore;
+    private double averageScore;
 
-    public Student(String surname, int averageScore) {
+    public Student(String surname, double averageScore) {
         this.surname = surname;
         this.averageScore = averageScore;
     }
@@ -23,11 +23,11 @@ public class Student implements Comparable<Student> {
         this.surname = surname;
     }
 
-    public int getAverageScore() {
+    public double getAverageScore() {
         return averageScore;
     }
 
-    public void setAverageScore(int averageScore) {
+    public void setAverageScore(double averageScore) {
         this.averageScore = averageScore;
     }
 
